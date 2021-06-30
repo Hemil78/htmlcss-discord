@@ -4,3 +4,8 @@
     box-sizing: border-box;
 }
 
+/* common */
+
+body{
+    font-family: 'Noto Sans SC', sans-serif;
+}
