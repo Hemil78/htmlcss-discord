@@ -13,7 +13,6 @@ body{
 .container{
     width: 70%;
     margin: auto;
-
 }
 .clearfix{
     display: table;
@@ -33,6 +32,12 @@ section{
     border-radius: 20px;
     border: none;
     font-weight: 600;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 /* header */
@@ -124,11 +129,7 @@ h1{
 }
 
 /* section study */
-h2{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
+
 .text-desk,
 .img-desk{
     display: inline-block;
@@ -145,6 +146,38 @@ h2{
 /* section just */
 
 .just{ background-color: #f6f6f6;}
+.coach{background-color: white;}
+
+/* section tecnologia */
+
+
+.text-contact{
+    text-align: center;
+    padding: 100px 100px 10px 100px;
+}  
+
+#big-img{width: 100%;}
+
+.violet{
+    color: white;
+    padding: 10px;
+    background-color: #8ea1e1;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+
+.start {
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+}   
+
+
+
+
+
 
 
 
