@@ -9,3 +9,67 @@
 body{
     font-family: 'Noto Sans SC', sans-serif;
 }
+
+.container{
+    width: 70%;
+    margin: auto;
+
+}
+.clearfix{
+    display: table;
+    content:"";
+    clear: both;
+}
+
+/* header */
+header{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #3161e0;
+}
+
+
+.logo-img,
+.button-white,
+nav ul li{
+    display: inline-block;
+    }
+
+.logo-img{
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.button-white{
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar li{ margin: 0 15px;}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-white{
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
