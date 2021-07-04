@@ -158,7 +158,10 @@ h1{
 
 /* section tecnologia */
 
-.big-contact{ background-color: #f6f6f6;}
+.big-contact{ 
+    background-color: #f6f6f6;
+    min-height: 950px;
+}
 
 
 .text-contact{
@@ -190,7 +193,97 @@ h1{
     text-align: center;
 }
 
+/* footer */
+footer{ 
+    background-color: #23272a;
+    color: white;
+}
 
+.box-footer{ width: 100%;}
+
+.posto,
+.prodotto,
+.campagnia,
+.risorse,
+.norme{
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+.space-footer{ 
+    padding-top: 60px;
+}
+
+.lingua img{
+    vertical-align: middle;
+    width: 25px;
+}
+
+.lingua ul{ 
+    vertical-align: middle;
+}
+
+.lingua img,
+.lingua ul{ 
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.icon-social i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.box-footer h2,
+.box-footer p{ 
+    color:#7289da;
+    margin-bottom: 20px;
+}
+
+.box-footer li{ 
+    list-style-type: none;
+}
+
+.prodotto li,
+.campagnia li,
+.risorse li,
+.norme li{ margin-bottom: 10px;}
+
+.prodotto li:hover,
+.campagnia li:hover,
+.risorse li:hover,
+.norme li:hover{ text-decoration: underline;}
+
+.prodotto,
+.campagnia,
+.risorse,
+.norme{ padding-left: 50px;}
+
+/* footer-down */
+
+.footer-down{
+    width: 100%;
+    height: 80px;
+    padding-bottom: 30px;
+    border-top: 1px solid #7289da;
+}
+
+.registred{ 
+    color: white;
+    background-color:#7289da;
+}
+
+.footer-down-img,
+.footer-down-button{ 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+.footer-down-button{float: right;}
+
+.footer-down-img img{ width: 150px;}
 
 
 
