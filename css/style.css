@@ -6,9 +6,7 @@
 
 /* common */
 
-body{
-    font-family: 'Noto Sans SC', sans-serif;
-}
+body{ font-family: 'Noto Sans SC', sans-serif;}
 
 .container{
     width: 70%;
@@ -65,9 +63,7 @@ header{
 
 .logo-img,
 .button-white,
-nav ul li{
-    display: inline-block;
-    }
+nav ul li{ display: inline-block;}
 
 .logo-img{
     float: left;
@@ -124,9 +120,7 @@ h1{
     margin-bottom: 30px;
 }
 
-.hero-parag{
-    margin-bottom: 30px;
-}
+.hero-parag{ margin-bottom: 30px;}
 
 .button-mac{
     color: black;
@@ -157,6 +151,9 @@ h1{
 /* section just */
 
 .just{ background-color: #f6f6f6;}
+
+/* coach */
+
 .coach{background-color: white;}
 
 /* section tecnologia */
@@ -169,23 +166,31 @@ h1{
     padding: 100px 100px 10px 100px;
 }  
 
-#big-img{width: 100%;}
-
 .violet{
     color: white;
-    padding: 10px;
     background-color: #8ea1e1;
-    border-radius: 20px;
-    border: none;
-    font-weight: 600;
 }
 
 .start {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     text-align: center;
     width: 50%;
-    height: 100px;
+    height: 60px;
     margin: auto;
-}   
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.violet-mac{
+    margin-top: 20px;
+    padding-bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+
 
 
 
